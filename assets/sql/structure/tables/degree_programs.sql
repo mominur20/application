@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS degree_programs(
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  long_title VARCHAR(511) NOT NULL,
+  yrq_begin VARCHAR(4) NOT NULL,
+  yrq_end VARCHAR(4) NOT NULL
+);
